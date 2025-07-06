@@ -60,6 +60,7 @@ This project consists of HTML, CSS and JavaScript code only.
      </pre>
 
 ## Youtube Link
+[Project 0: Search](https://youtu.be/HE2tYK2taJc)
 
 ## Notes
 ### Future Improvements
