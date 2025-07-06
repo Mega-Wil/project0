@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8" />
         <title>Image Search</title>
         <link rel="stylesheet" href="styles/main.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +17,8 @@
                 </ul>
             </nav>
         </header>
-        <div class="banner">
+        <main>
+            <div class="banner">
             <div class="moogle-container">
                 <h1 class="moogle" aria-label="Moogle">
                     <span class="blue" aria-hidden="true">M</span>
@@ -36,7 +38,7 @@
                 <div class="search-container">
                     <div class="search-text-input">
                         <span class="material-symbols-outlined">search</span>
-                        <input type="text" name="q" autofocus>
+                        <input class="search-input" type="text" name="q" autofocus>
                         <input type="hidden" name="udm" value="2">
                     </div>
                     <div class="search-submit">
@@ -45,5 +47,7 @@
                 </div>
             </form>
         </div>
+        </main>
+        <script src="scripts/script.js"></script>
     </body>
 </html>

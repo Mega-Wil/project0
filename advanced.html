@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <title>Advanced Search</title>
   <link rel="stylesheet" href="styles/main.css">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
@@ -37,7 +39,7 @@
           <label for="as_q">all these words:</label>
         </div>
         <div class="middle">
-          <input type="text" name="as_q" id="as_q" value autofocus="autofocus">
+          <input class="search-input" type="text" name="as_q" id="as_q" value autofocus="autofocus">
         </div>
         <div class="right">
           Type the important words: <code>tricolor rat terrier</code>
@@ -49,7 +51,7 @@
           <label for="as_epq">this exact word or phrase:</label>
         </div>
         <div class="middle">
-          <input type="text" name="as_epq" id="as_epq">
+          <input class="search-input" type="text" name="as_epq" id="as_epq">
         </div>
         <div class="right">
           Put exact words in quotes: <code>"rat terrier"</code>
@@ -61,7 +63,7 @@
           <label for="as_oq">any of these words:</label>
         </div>
         <div class="middle">
-          <input type="text" name="as_oq" id="as_oq">
+          <input class="search-input" type="text" name="as_oq" id="as_oq">
         </div>
         <div class="right">
           Type <code>OR</code> between all the words you want: <code>miniature OR standard</code>
@@ -73,7 +75,7 @@
           <label for="as_eq">none of these words:</label>
         </div>
         <div class="middle">
-          <input type="text" name="as_eq" id="as_eq">
+          <input class="search-input" type="text" name="as_eq" id="as_eq">
         </div>
         <div class="right">
           Put a minus sign just before words you don't want: <code>-rodent, -"Jack Russell"</code>
@@ -90,6 +92,7 @@
       </div>
     </form>
   </main>
+  <script src="scripts/script.js"></script>
 </body>
 </html>
 
