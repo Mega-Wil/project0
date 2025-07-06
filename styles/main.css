@@ -1,0 +1,350 @@
+/* Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: #1f1f1f;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 4.7rem;
+}
+
+/* Header Navigation */
+header {
+  width: 100%;
+  height: 48px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header.advanced-search {
+  justify-content: space-between;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  height: 48px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-links a {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 13px;
+  text-decoration: none;
+  line-height: 24px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Logo Styling 
+.moogle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 64px;
+   /*letter-spacing: -0.05em; Slight negative spacing is ok 
+  margin: 0;
+  line-height: 1;
+}
+
+.logo-word {
+  display: inline-block; /* Makes it centerable as one unit 
+  width: 272px;
+}
+
+.blue { color: #4285f4; }
+.red { color: #ea4335; }
+.yellow { color: #fbbc05; }
+.green { color: #34a853; }
+
+.banner {
+  height: 290px;
+}
+
+.moogle-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative; /* Needed for positioning .images 
+  text-align: center;
+}
+
+.images {
+  color: #4285f4;
+  position: absolute;
+  display: block;
+  z-index: 1;
+  font-size: 16px;
+  padding-left: 215px;
+  padding-bottom: 5px;
+}
+
+*/
+
+/* Logo Styling */
+
+.banner {
+  height: 290px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.moogle-container {
+  width: 272px;
+  height: 92px;
+  position: relative;
+}
+
+.moogle {
+  font-family: poppins, sans-serif;
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.blue { color: #4285f4; }
+.red { color: #ea4335; }
+.yellow { color: #fbbc05; }
+.green { color: #34a853; }
+
+
+.images {
+  color: #4285f4;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  font-size: 14px;
+}
+
+.moogle-logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  box-sizing: content-box;
+  height: 40px;
+  width: auto;
+  font-size: 18px;
+}
+
+
+/* Search Form */
+.form {
+  display: flex;
+  justify-content: center;
+  height: 142px;
+  width: 100%;
+  padding: 20px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.search-text-input {
+  display: flex;
+  align-items: center;
+  width: 582px;
+  height: 46px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  box-shadow: 0 2px 8px rgba(60, 64, 67, 0.25);
+}
+
+.search-text-input input[type="text"] {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.87);
+  height: 100%;
+}
+
+.material-symbols-outlined {
+  font-size: 16px;
+  color: #9aa0a6;
+  padding: 0 13px 0 14px;
+}
+
+/* Submit Buttons */
+.search-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88px;
+  gap: 8px;
+}
+
+.search-submit input[type="submit"] {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-size: 14px;
+  padding: 0 16px;
+  height: 36px;
+  cursor: pointer;
+  user-select: none;
+  font-family: inherit;
+}
+
+.search-submit input[type="submit"]:hover {
+  border-color: #dadce0;
+  color: #202124;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Advanced Search Styles */
+.advanced-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.advanced-form {
+  max-width: 1140px;
+  min-width: 200px;
+  width: 96%;
+  margin: 40px 2% 0 45px;
+  font-size: 13px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.advanced-search-container h1 {
+  font-size: 18px;
+  color: #d93025;
+  font-weight: normal;
+  padding: 25px 35px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.advanced-form .row {
+  display: flex;
+  align-items: top;
+  height: 42px;
+}
+
+.advanced-form .left {
+  min-width: 167px;
+  width: 16%;
+  color: #333;
+  font-size: 16px;
+}
+
+.left label {
+  font-size: 13px;
+  line-height: 16px;
+  color: #222;
+}
+
+#search-box-instruction-title {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-weight: bold;
+  color: #777;
+}
+
+.advanced-form .middle {
+  min-width: 167px;
+  width: 50%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+.advanced-form .right {
+  min-width: 167px;
+  width: 33%;
+  font-size: 11px;
+  color: #555;
+  padding-left: 5px;
+  margin: 0 0 8px 1%;
+}
+
+.row input[type="text"] {
+  height: 25px;
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  border-radius: 1px;
+  padding: 1px 8px;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+.row input[type="text"]:focus-visible {
+  outline: none;
+  border: 1px solid #4285f4;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+}
+.row input[type="text"]:active {
+  outline: none;
+  border: 1px solid #4285f4;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+
+.right code {
+  color:#666;
+}
+
+input.advanced-button {
+  /*background-color: #4D90FE;*/
+  background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+  border: 1px solid #3079ed;
+  border-radius: 1px;
+  color: #FFF;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 0 12px;
+  line-height: 100%;
+  height: 30px;
+  min-width: 120px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+input.advanced-button:hover {
+  background-image: -webkit-linear-gradient(top, #4d90fe, #357ae8);
+  background-color: #357ae8;
+  border: 1px solid #2f5bb7;
+  color: #fff;
+}
+input.advanced-button:active {
+  background-color: #357ae8;
+  border: 1px solid #2f5bb7;
+  box-shadow: inset 0 2px 4px rgb(0, 0, 0, 0.3);
+  color: #fff;
+}
