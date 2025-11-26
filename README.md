@@ -46,7 +46,7 @@ This project consists of HTML, CSS and JavaScript code only.
 
 ## How the run the project
 1. Clone the repository:
-   <pre>git clone https://github.com/YOUR-USERNAME/project0.git</pre>
+   <pre>git clone https://github.com/Mega-Wil/project0.git</pre>
 2. Navigate into the project folder:
    <pre>cd project0</pre>
 3. Open search page in your browser:
